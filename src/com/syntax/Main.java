@@ -8,5 +8,8 @@ public class Main {
         solarSystem.sun = 1;
         solarSystem.moon = 1;
         solarSystem.planets = 2;
+
+        Sun sun = new Sun();
+        sun.temperature = "5,778 K";
     }
 }
